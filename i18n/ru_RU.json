@@ -4,7 +4,7 @@
 		"menuTitles": {
 			"inbound": "Входящие факсы",
 			"outbound": "Исходящие факсы",
-			"logs": "Email-to-Fax Logs",
+			"logs": "Журнал отправки факсов Email-to-Fax",
 			"storage": "Сетевое Хранилище"
 		},
 		"table": {
@@ -16,14 +16,14 @@
 				"received": "Получено",
 				"receivingFaxbox": "Receiving Faxbox",
 				"receivingNumber": "Receiving Number",
-				"pages": "Pages",
-				"from": "From"
+				"pages": "Страницы",
+				"from": "Отправитель"
 			},
 			"emptyRow": "В выбранном аккаунте факсов не обнаружено",
 			"status": {
-				"success": "Success",
+				"success": "Успешно",
 				"processing": "Processing",
-				"failed": "Failed",
+				"failed": "Ошибка",
 				"pending": "В ожидании",
 				"completed": "Завершено"
 			},
@@ -38,21 +38,21 @@
 		"actionBar": {
 			"refresh": "Обновить",
 			"select": {
-				"all": "All on page",
-				"failed": "Failed",
+				"all": "Все на странице",
+				"failed": "Ошибка",
 				"completed": "Completed",
 				"none": "None"
 			},
 			"selectFaxbox": {
 				"none": "Select a Fax Box"
 			},
-			"from": "From",
-			"to": "To",
+			"from": "Отправитель",
+			"to": "Получатель",
 			"markAsNew": "Отметить как новое",
 			"tooltips": {
 				"refresh": "Обновить",
 				"select": "Выбрать",
-				"resend": "Отправить",
+				"resend": "Отправить заново",
 				"delete": "Удалить"
 			},
 			"currentlyViewing": "Currently Viewing",
@@ -69,7 +69,7 @@
 		},
 		"resendConfirm": {
 			"content": "You are attempting to redeliver {{variable}} faxes. Are you sure you want to attempt re-delivery?",
-			"confirmButtonText": "Re-send Faxes",
+			"confirmButtonText": "Отправить факс заново",
 			"title": "Вы уверены?",
 			"success": "You successfully tried to re-send the selected faxes!"
 		},
@@ -77,8 +77,8 @@
 
 		"logs": {
 			"tableTitles": {
-				"from": "From",
-				"to": "To",
+				"from": "Отправитель",
+				"to": "Получатель",
 				"date": "Дата",
 				"details": "Детали",
 				"status": "Статус"
